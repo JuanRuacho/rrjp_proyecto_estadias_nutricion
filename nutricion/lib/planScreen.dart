@@ -12,6 +12,9 @@ class PlanScreen extends StatefulWidget {
 class _PlanScreenState extends State<PlanScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(title: Text(widget.title)),
+      body: const Center(child: Text('Plan Screen')),
+    );
   }
 }
