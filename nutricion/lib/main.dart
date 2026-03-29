@@ -20,10 +20,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      initialRoute: '/Login',
       home: const Home(title: 'Flutter Demo Home Page'),
       //se establecieron las rutas para cada pantalla
       routes: {
-        '/login': (context) => const LoginScreen(title: 'Login'),
+        '/Login': (context) => const LoginScreen(title: 'Login'),
         '/register': (context) => const RegisterScreen(title: 'Register'),
         '/dashboard': (context) => const DashboardScreen(title: 'Dashboard'),
         '/plan': (context) => const PlanScreen(title: 'Plan'),
