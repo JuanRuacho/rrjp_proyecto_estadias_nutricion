@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
       home: const Home(title: 'Flutter Demo Home Page'),
       //se establecieron las rutas para cada pantalla
       routes: {
+        '/home': (context) => const Home(title: 'Home'),
         '/Login': (context) => const LoginScreen(title: 'Login'),
         '/register': (context) => const RegisterScreen(title: 'Register'),
         '/dashboard': (context) => const DashboardScreen(title: 'Dashboard'),
